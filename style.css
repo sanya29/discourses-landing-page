@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(255, 236, 212);
+    font-family: 'Luckiest Guy', cursive;
+    color: #1c3a56;
+}
+
+.pic {
+    float: right;
+    height: 700px;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.marg {
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+.lucida {
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+
+.human {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    border-radius: 15px;
+    /* background-color: #3782A4;
+    opacity: 0.4;
+    color: #1C3A56; */
+}
+
+.exc {
+    opacity: 1.0;
+}
