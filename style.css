@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 236, 212);
+    background-color: #F2EFDF;
     font-family: 'Luckiest Guy', cursive;
     color: #1c3a56;
 }
@@ -11,12 +11,13 @@ body {
 
 .logo {
     float: left;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 5px;
+    /* margin-top: 20px;
+    margin-left: 20px; */
 }
 
 .marg {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 7rem;
 }
 
@@ -31,11 +32,119 @@ body {
 
 .btn {
     border-radius: 15px;
-    /* background-color: #3782A4;
-    opacity: 0.4;
-    color: #1C3A56; */
+    background-color: #3782A4;
+    /* opacity: 0.6; */
+    background-color: rgba(55,130,164, 0.6);
+    color: #000b14;
+    color: rgba(0,11,20, 0.6);
+
 }
 
-.exc {
-    opacity: 1.0;
+.email {
+    width: 80%;
+}
+
+.mybtn {
+    border-radius: 15px;
+    background-color: #3782A4;
+    opacity: 0.6;
+    color: #000b14;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    /*border-color: rgb(255, 236, 212);*/
+}
+
+::placeholder {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nobrdr {
+    /* border-color: rgb(255, 236, 212); */
+    box-shadow: none;
+    border-style: hidden;
+}
+
+input[type=email]:focus {
+    border: 3px solid #1c3a56;
+    outline: aquamarine;
+  }
+
+.about {
+    color: #1c3a56;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+    display: inline-block;
+    float: right;
+    font-size: large;
+}
+
+.head {
+    text-align: center;
+    color: #1c3a56;
+    margin-top: 30px;
+}
+
+.card {
+    /*height: 50px;*/ /*use this for I LIKE THIS*/
+    display: inline-block;
+    margin-right: 5.7rem;
+    margin-left: 6.0rem;
+    border-radius: 25px;
+}
+
+.smol {
+    font-size: medium;
+}
+
+.round {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.down {
+    padding-bottom: 3px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+/* 
+.myhdr img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+} */
+  
+.myhdr {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    color: rgb(195,116,56);
+}
+
+.myhdr:hover {
+    color:rgb(195,116,56);
+}
+
+.icon {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.linkr:hover {
+    color: #3782A4;
+}
+
+.linkr {
+    color: #1c3a56;
+    text-decoration: underline;
+}
+
+.myfa {
+    border-style: hidden;
 }
